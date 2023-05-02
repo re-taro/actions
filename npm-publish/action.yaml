@@ -1,0 +1,32 @@
+name: "Publish Node.js package to npm registry and GitHub Packages"
+description: "Publish Node.js package to npm registry and GitHub Packages using npm"
+inputs:
+  npm-token:
+    description: "Token for the npm registry"
+    required: true
+  github-token:
+    description: "Token for the GitHub Packages registry"
+  working-directory:
+    description: "Working directory"
+    default: "."
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v3
+      with:
+        registry-url: https://registry.npmjs.org/
+    - run: npm publish
+      working-directory: ${{ inputs.working-directory }}
+      shell: sh
+      env:
+        NODE_AUTH_TOKEN: ${{ inputs.npm-token }}
+    - uses: actions/setup-node@v3
+      if: ${{ inputs.github-token }}
+      with:
+        registry-url: https://npm.pkg.github.com/
+    - run: npm publish
+      if: ${{ inputs.github-token }}
+      working-directory: ${{ inputs.working-directory }}
+      shell: sh
+      env:
+        NODE_AUTH_TOKEN: ${{ inputs.github-token }}
