@@ -18,7 +18,7 @@ runs:
         echo "name=${package_manager%%@*}" >> $GITHUB_OUTPUT
         echo "version=${package_manager##*@}" >> $GITHUB_OUTPUT
       shell: sh
-    - uses: actions/setup-node@v3.6.0
+    - uses: actions/setup-node@v3.7.0
       with:
         node-version: ${{ inputs.node-version }}
         node-version-file: ${{ inputs.node-version-file }}
