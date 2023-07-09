@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/re-taro/actions/compare/v1.0.0...v1.1.0) (2023-07-09)
+
+
+### Features
+
+* implement turbo cache actions ([6eb72f3](https://github.com/re-taro/actions/commit/6eb72f3f7667b43bb91f844ee532f89b4dcc422a))
+
 ## 1.0.0 (2023-05-02)
 
 
