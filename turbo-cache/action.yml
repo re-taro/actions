@@ -1,0 +1,11 @@
+name: "Set up GitHub Actions caching for Turborepo"
+description: "Sets up Turborepo Remote Caching to work with GitHub Actions' built-in cache. No Vercel account access tokens needed."
+inputs:
+  cache-prefix:
+    description: "Prefix for the cache key"
+    required: false
+    default: turbogha_
+runs:
+  using: "node16"
+  main: "lib/index.cjs"
+  post: "lib/post.cjs"
