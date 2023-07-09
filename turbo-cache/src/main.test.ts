@@ -23,7 +23,7 @@ it("can save and load", async () => {
       headers: {
         "Content-Type": "application/octet-stream",
       },
-    }
+    },
   );
   const { data } = await axios.get("http://localhost:41230/v8/artifacts/123", {
     responseType: "arraybuffer",

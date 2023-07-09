@@ -47,7 +47,7 @@ async function run(): Promise<void> {
 async function launchServer(): Promise<void> {
   try {
     // Launch a detached child process to run the server
-    // See: https://nodejs.org/docs/latest-v16.x/api/child_process.html#optionsdetached
+    // See: https://nodejs.org/docs/latest-v16.x/api/child_process.html#optionsdetacheda
     const out = openSync(serverLogFile, "a");
     const err = openSync(serverLogFile, "a");
     const child = spawn(
