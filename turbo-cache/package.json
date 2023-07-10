@@ -31,7 +31,7 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@re-taro/eslint-config": "1.9.14",
+    "@re-taro/eslint-config": "1.9.15",
     "@tsconfig/strictest": "2.0.1",
     "@types/node": "20.4.1",
     "@types/wait-on": "5.3.1",
