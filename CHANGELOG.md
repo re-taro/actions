@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/re-taro/actions/compare/v1.1.1...v1.1.2) (2023-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v4.21.0 ([be784b7](https://github.com/re-taro/actions/commit/be784b788d3f56de711f9f44288614b43a9fdabe))
+
 ## [1.1.1](https://github.com/re-taro/actions/compare/v1.1.0...v1.1.1) (2023-07-21)
 
 
