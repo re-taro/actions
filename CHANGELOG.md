@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/re-taro/actions/compare/v1.2.0...v2.0.0) (2023-08-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* fix missed filter
+
+### Bug Fixes
+
+* fix missed filter ([0594e01](https://github.com/re-taro/actions/commit/0594e018630e3ab2fdede23099850231be5bd889))
+
 ## [1.2.0](https://github.com/re-taro/actions/compare/v1.1.2...v1.2.0) (2023-08-18)
 
 
