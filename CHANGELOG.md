@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/re-taro/actions/compare/v1.1.2...v1.2.0) (2023-08-18)
+
+
+### Features
+
+* implement sync-renovate-changesets action ([2e13336](https://github.com/re-taro/actions/commit/2e13336e2d489430325351dd9fd70fafa92b69cd))
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v3.22.1 ([dbc393d](https://github.com/re-taro/actions/commit/dbc393d94cd243a59a1e141326f21264d483a28e))
+
 ## [1.1.2](https://github.com/re-taro/actions/compare/v1.1.1...v1.1.2) (2023-08-02)
 
 
