@@ -37,9 +37,9 @@ jobs:
         working-directory: ./turbo-cache
     steps:
       - uses: actions/checkout@v3.5.3
-      - run: ls -a
       - name: Setup Node.js
         uses: re-taro/actions/setup-node@v2.0.0
         with:
-          node-version-file: ../.tool-versions
+          node-version-file: .tool-versions
+      - run: pnpm i --frozen-lockfile
       - run: pnpm test
