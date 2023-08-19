@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.1](https://github.com/re-taro/actions/compare/v3.2.0...v3.2.1) (2023-08-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v3.22.2 ([#54](https://github.com/re-taro/actions/issues/54)) ([05a2131](https://github.com/re-taro/actions/commit/05a2131c20761fd485137d56101670c538c9c6a5))
+
 ## [3.2.0](https://github.com/re-taro/actions/compare/v3.1.0...v3.2.0) (2023-08-19)
 
 
