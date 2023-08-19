@@ -29,7 +29,7 @@ async function gen(): Promise<void> {
     const GITHUB_REPOSITORY = getInput("repository");
 
     const now = Math.floor(Date.now() / 1000);
-    const iat = now - 60;
+    const iat = now;
     const exp = now + 3 * 60;
     const header = getJwtHeader();
     const payload = JSON.stringify({ iss: APP_ID, iat, exp });
