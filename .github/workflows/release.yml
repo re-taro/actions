@@ -20,8 +20,7 @@ jobs:
         env:
           APP_ID: ${{ secrets.APP_ID }}
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        run: |
-          ./.github/scripts/gen.sh
+        uses: ./gen-installation-token
       - id: release
         uses: google-github-actions/release-please-action@v3.7.11
         with:
