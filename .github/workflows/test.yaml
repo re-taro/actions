@@ -32,11 +32,9 @@ jobs:
       - run: node --eval "assert('${{ steps.setup-node.outputs.package-manager }}' === 'pnpm');"
   test-turbo-cache:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: turbo-cache
     steps:
       - uses: actions/checkout@v3.5.3
+      - run: cd turbo-cache
       - name: Setup Node.js
         uses: re-taro/actions/setup-node@v2.0.0
         with:
