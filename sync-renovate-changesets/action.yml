@@ -7,6 +7,10 @@ inputs:
 runs:
   using: composite
   steps:
+    - name: Checkout
+      uses: actions/checkout@v3.5.3
+      with:
+        token: ${{ inputs.token }}
     - name: Configure Git
       run: |
         git config --global user.email action@github.com
@@ -15,7 +19,6 @@ runs:
     - name: Generate changeset
       uses: actions/github-script@v6.4.1
       with:
-        github-token: ${{ inputs.token }}
         script: |
           const { promises: fs } = require("fs");
           async function getPackagesNames(files) {
