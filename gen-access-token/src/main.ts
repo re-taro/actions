@@ -11,8 +11,6 @@ import {
 import axios from "axios";
 import type { AxiosInstance } from "axios";
 
-let token: string;
-
 async function run(): Promise<void> {
   // eslint-disable-next-line no-extra-boolean-cast
   if (!!getState("isPost")) {
@@ -47,7 +45,6 @@ async function gen(): Promise<void> {
     );
     setSecret(accessToken);
     setOutput("token", accessToken);
-    token = accessToken;
     info("Token generated successfully.");
   } catch (error) {
     if (error instanceof Error) setFailed(error.message);
@@ -60,7 +57,7 @@ async function post(): Promise<void> {
     const headers = {
       Accept: "application/vnd.github+json",
       "X-GitHub-Api-Version": "2022-11-28",
-      Authorization: `Bearer ${token}`,
+      Authorization: `Bearer `,
     };
     axios.delete(`${GITHUB_API_URL}/installation/token`, { headers });
   } catch (error) {
