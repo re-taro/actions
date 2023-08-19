@@ -12,7 +12,7 @@
   },
   "main": "lib/index.cjs",
   "scripts": {
-    "build": "esbuild src/main.ts --bundle --platform=node --target=es2021 --outfile=lib/index.cjs",
+    "build": "esbuild src/main.ts --bundle --minify --platform=node --target=es2021 --outfile=lib/index.cjs",
     "lint": "run-s -c lint:*",
     "lint:eslint": "eslint . --ext .ts,.cjs,json",
     "lint:prettier": "prettier --check **/*.{ts,cjs,json}",
