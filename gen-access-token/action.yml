@@ -16,7 +16,7 @@ inputs:
 runs:
   using: node16
   main: lib/index.cjs
-  post: lib/index.cjs
+#  post: lib/index.cjs
 outputs:
   token:
     description: An installation token for the GitHub App on the requested repository.
