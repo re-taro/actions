@@ -1,5 +1,5 @@
-name: "Sync changeset to renovate PR"
-description: "Sync changeset to renovate PR"
+name: Sync changeset to renovate PR
+description: Sync changeset to renovate PR
 runs:
   using: composite
   steps:

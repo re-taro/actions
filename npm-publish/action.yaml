@@ -1,16 +1,18 @@
-name: "Publish Node.js package to npm registry and GitHub Packages"
-description: "Publish Node.js package to npm registry and GitHub Packages using npm"
+name: Publish Node.js package to npm registry and GitHub Packages
+description: Publish Node.js package to npm registry and GitHub Packages using npm
 inputs:
   npm-token:
-    description: "Token for the npm registry"
+    description: Token for the npm registry
     required: true
   github-token:
-    description: "Token for the GitHub Packages registry"
+    description: Token for the GitHub Packages registry
+    required: false
   working-directory:
-    description: "Working directory"
-    default: "."
+    description: Working directory
+    required: false
+    default: .
 runs:
-  using: "composite"
+  using: composite
   steps:
     - uses: actions/setup-node@v3.8.1
       with:

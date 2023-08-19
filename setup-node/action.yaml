@@ -1,12 +1,14 @@
-name: "Setup Node.js environment"
-description: "Set up the Node.js environment and install dependencies. This is automatically identified by Corepack as the package manager to use"
+name: Setup Node.js environment
+description: Set up the Node.js environment and install dependencies. This is automatically identified by Corepack as the package manager to use
 inputs:
   node-version:
-    description: "Version Spec of the version to use."
+    description: Version Spec of the version to use.
+    required: false
   node-version-file:
-    description: "File containing the version Spec of the version to use."
+    description: File containing the version Spec of the version to use.
+    required: false
 runs:
-  using: "composite"
+  using: composite
   steps:
     - id: package-manager
       run: |
