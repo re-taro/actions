@@ -16,7 +16,7 @@ async function run(): Promise<void> {
   if (!!getState("isPost")) {
     gen();
   } else {
-    post();
+    //post();
   }
 }
 
@@ -51,19 +51,19 @@ async function gen(): Promise<void> {
   }
 }
 
-async function post(): Promise<void> {
-  try {
-    const GITHUB_API_URL = getInput("github_api_url");
-    const headers = {
-      Accept: "application/vnd.github+json",
-      "X-GitHub-Api-Version": "2022-11-28",
-      Authorization: `Bearer `,
-    };
-    axios.delete(`${GITHUB_API_URL}/installation/token`, { headers });
-  } catch (error) {
-    if (error instanceof Error) setFailed(error.message);
-  }
-}
+//async function post(): Promise<void> {
+//  try {
+//    const GITHUB_API_URL = getInput("github_api_url");
+//    const headers = {
+//      Accept: "application/vnd.github+json",
+//      "X-GitHub-Api-Version": "2022-11-28",
+//      Authorization: `Bearer ${token}`,
+//    };
+//    axios.delete(`${GITHUB_API_URL}/installation/token`, { headers });
+//  } catch (error) {
+//    if (error instanceof Error) setFailed(error.message);
+//  }
+//}
 
 function getGithubClient(jwt: string): AxiosInstance {
   const GITHUB_API_URL = getInput("github_api_url");
