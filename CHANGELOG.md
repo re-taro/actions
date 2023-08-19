@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/re-taro/actions/compare/v3.0.1...v3.0.2) (2023-08-19)
+
+
+### Bug Fixes
+
+* support custom PAT ([c8cfe05](https://github.com/re-taro/actions/commit/c8cfe053ba5212192a01cde0757939266851e7f2))
+
 ## [3.0.1](https://github.com/re-taro/actions/compare/v3.0.0...v3.0.1) (2023-08-19)
 
 
