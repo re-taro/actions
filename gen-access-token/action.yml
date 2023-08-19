@@ -1,0 +1,22 @@
+name: Generate Installation Access Token for GitHub App
+description: Generate Installation Access Token for GitHub App
+inputs:
+  app_id:
+    description: ID of the GitHub App.
+    required: true
+  private_key:
+    description: Private key of the GitHub App (can be Base64 encoded).
+    required: true
+  github_api_url:
+    description: The API URL of the GitHub server.
+    default: ${{ github.api_url }}
+  repository:
+    description: The full name of the repository for which the token will be requested.
+    default: ${{ github.repository }}
+runs:
+  using: node16
+  main: lib/index.cjs
+  post: lib/index.cjs
+outputs:
+  token:
+    description: An installation token for the GitHub App on the requested repository.
