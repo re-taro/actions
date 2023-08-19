@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3.5.3
       - name: Generate access token
         id: generate_token
-        uses: ./gen-access
+        uses: ./gen-access-token
         with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
@@ -32,10 +32,13 @@ jobs:
       - run: node --eval "assert('${{ steps.setup-node.outputs.package-manager }}' === 'pnpm');"
   test-turbo-cache:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: turbo-cache
     steps:
       - uses: actions/checkout@v3.5.3
       - name: Setup Node.js
         uses: re-taro/actions/setup-node@v2.0.0
         with:
-          node-version-file: .tool-versions
-      - run: cd turbo-cache && pnpm test
+          node-version-file: ../.tool-versions
+      - run: pnpm test
