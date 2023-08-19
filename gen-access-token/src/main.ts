@@ -11,11 +11,6 @@ import {
 import axios from "axios";
 import type { AxiosInstance } from "axios";
 
-const APP_ID = getInput("app_id", { required: true });
-const PRIVATE_KEY = getInput("private_key", { required: true });
-const GITHUB_API_URL = getInput("github_api_url");
-const GITHUB_REPOSITORY = getInput("repository");
-
 let token: string;
 
 async function run(): Promise<void> {
@@ -29,6 +24,10 @@ async function run(): Promise<void> {
 
 async function gen(): Promise<void> {
   try {
+    const APP_ID = getInput("app_id", { required: true });
+    const PRIVATE_KEY = getInput("private_key", { required: true });
+    const GITHUB_REPOSITORY = getInput("repository");
+
     const now = Math.floor(Date.now() / 1000);
     const iat = now - 60;
     const exp = now + 3 * 60;
@@ -57,9 +56,10 @@ async function gen(): Promise<void> {
 
 async function post(): Promise<void> {
   try {
+    const GITHUB_API_URL = getInput("github_api_url");
     const headers = {
       Accept: "application/vnd.github+json",
-      "X-Github-Api-Version": "2022-11-28",
+      "X-GitHub-Api-Version": "2022-11-28",
       Authorization: `Bearer ${token}`,
     };
     axios.delete(`${GITHUB_API_URL}/installation/token`, { headers });
@@ -69,12 +69,14 @@ async function post(): Promise<void> {
 }
 
 function getGithubClient(jwt: string): AxiosInstance {
+  const GITHUB_API_URL = getInput("github_api_url");
+
   return axios.create({
     baseURL: GITHUB_API_URL,
     headers: {
       Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
       Authorization: `Bearer ${jwt}`,
-      "X-Github-Api-Version": "2022-11-28",
     },
   });
 }
