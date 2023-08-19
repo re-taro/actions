@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/re-taro/actions/compare/v3.1.0...v3.2.0) (2023-08-19)
+
+
+### Features
+
+* update checkout inputs ([0fdd83a](https://github.com/re-taro/actions/commit/0fdd83a66a7846f7770e4c2bd34671e2573dcecb))
+
 ## [3.1.0](https://github.com/re-taro/actions/compare/v3.0.2...v3.1.0) (2023-08-19)
 
 
