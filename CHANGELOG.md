@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/re-taro/actions/compare/v2.1.0...v2.2.0) (2023-08-19)
+
+
+### Features
+
+* add token input ([05b6a93](https://github.com/re-taro/actions/commit/05b6a93516d3bb9a759ca6f7765f4c7d6fb0ba5b))
+
 ## [2.1.0](https://github.com/re-taro/actions/compare/v2.0.0...v2.1.0) (2023-08-19)
 
 
