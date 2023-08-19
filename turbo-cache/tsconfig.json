@@ -24,8 +24,7 @@
     "baseUrl": ".",
     "allowJs": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "types": ["vitest/importMeta"]
+    "isolatedModules": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
