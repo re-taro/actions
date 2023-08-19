@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.0.0](https://github.com/re-taro/actions/compare/v2.2.0...v3.0.0) (2023-08-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove gen-access-token action
+* change architecture
+
+### Features
+
+* chmod ([b8244af](https://github.com/re-taro/actions/commit/b8244afe2094722d96bcca527a74055987ff63e9))
+* fix header ([a253156](https://github.com/re-taro/actions/commit/a2531562d2ff642dba43ca46b77a78e9a2b75c88))
+* fix iat ([345d7be](https://github.com/re-taro/actions/commit/345d7bee02d82de6bc80030dbe04947667c98c28))
+* reimplement generate installation token action ([15f74a8](https://github.com/re-taro/actions/commit/15f74a8bc3be751b3020093086cc13cf363ba14b))
+
+
+### Code Refactoring
+
+* change architecture ([4cbd195](https://github.com/re-taro/actions/commit/4cbd195e7912d47b654501a4f214e5d92e545af7))
+* remove gen-access-token action ([3909076](https://github.com/re-taro/actions/commit/39090768e1304ddea215e54038d090f1fdfbd953))
+
 ## [2.2.0](https://github.com/re-taro/actions/compare/v2.1.0...v2.2.0) (2023-08-19)
 
 
