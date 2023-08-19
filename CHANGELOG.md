@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/re-taro/actions/compare/v3.0.2...v3.1.0) (2023-08-19)
+
+
+### Features
+
+* fix missed PAT ([6920f9a](https://github.com/re-taro/actions/commit/6920f9ac78a7312efe6a176a454689bd90f20dd5))
+
 ## [3.0.2](https://github.com/re-taro/actions/compare/v3.0.1...v3.0.2) (2023-08-19)
 
 
