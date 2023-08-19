@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/re-taro/actions/compare/v2.0.0...v2.1.0) (2023-08-19)
+
+
+### Features
+
+* implement action for generate access token for GitHub App ([5bb78c1](https://github.com/re-taro/actions/commit/5bb78c1b12aa5faf5ede50d4812ef5fe14fba4d1))
+* minify build stats ([d099cee](https://github.com/re-taro/actions/commit/d099cee9bc6a0f90d63c38b89b1e13c8d018f978))
+
 ## [2.0.0](https://github.com/re-taro/actions/compare/v1.2.0...v2.0.0) (2023-08-18)
 
 
