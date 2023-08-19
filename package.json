@@ -1,0 +1,13 @@
+{
+  "name": "actions",
+  "description": "GitHub Actions workflows for @re-taro",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.6.12",
+  "license": "MIT",
+  "author": {
+    "name": "Rintaro Itokawa",
+    "email": "me@re-taro.dev",
+    "url": "https://re-taro.dev"
+  }
+}
