@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/re-taro/actions/compare/v3.0.0...v3.0.1) (2023-08-19)
+
+
+### Bug Fixes
+
+* fix broken action ([bc30c78](https://github.com/re-taro/actions/commit/bc30c78bd5942139f13df122cc1863d1bf1e8398))
+
 ## [3.0.0](https://github.com/re-taro/actions/compare/v2.2.0...v3.0.0) (2023-08-19)
 
 
