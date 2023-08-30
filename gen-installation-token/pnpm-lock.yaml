@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.10.2
     version: 1.10.2(eslint@8.48.0)(svelte@3.59.2)(typescript@5.2.2)
   '@tsconfig/strictest':
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 2.0.2
+    version: 2.0.2
   '@types/is-base64':
     specifier: 1.1.1
     version: 1.1.1
@@ -650,8 +650,8 @@ packages:
       - typescript
     dev: true
 
-  /@tsconfig/strictest@2.0.1:
-    resolution: {integrity: sha512-7JHHCbyCsGUxLd0pDbp24yz3zjxw2t673W5oAP6HCEdr/UUhaRhYd3SSnUsGCk+VnPVJVA4mXROzbhI+nyIk+w==}
+  /@tsconfig/strictest@2.0.2:
+    resolution: {integrity: sha512-jt4jIsWKvUvuY6adJnQJlb/UR7DdjC8CjHI/OaSQruj2yX9/K6+KOvDt/vD6udqos/FUk5Op66CvYT7TBLYO5Q==}
     dev: true
 
   /@types/btoa-lite@1.0.0:
