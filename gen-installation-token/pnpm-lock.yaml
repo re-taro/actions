@@ -12,8 +12,8 @@ dependencies:
     specifier: 5.1.1
     version: 5.1.1
   '@octokit/auth-app':
-    specifier: 6.0.0
-    version: 6.0.0
+    specifier: 6.0.1
+    version: 6.0.1
   '@octokit/request':
     specifier: 8.1.1
     version: 8.1.1
@@ -392,15 +392,15 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@octokit/auth-app@6.0.0:
-    resolution: {integrity: sha512-OKct7Rukf3g9DjpzcpdacQsdmd6oPrJ7fZND22JkjzhDvfhttUOnmh+qPS4kHhaNNyTxqSThnfrUWvkqNLd1nw==}
+  /@octokit/auth-app@6.0.1:
+    resolution: {integrity: sha512-tjCD4nzQNZgmLH62+PSnTF6eGerisFgV4v6euhqJik6yWV96e1ZiiGj+NXIqbgnpjLmtnBqVUrNyGKu3DoGEGA==}
     engines: {node: '>= 18'}
     dependencies:
       '@octokit/auth-oauth-app': 7.0.0
       '@octokit/auth-oauth-user': 4.0.0
       '@octokit/request': 8.1.1
       '@octokit/request-error': 5.0.0
-      '@octokit/types': 11.1.0
+      '@octokit/types': 12.0.0
       deprecation: 2.3.1
       lru-cache: 10.0.1
       universal-github-app-jwt: 1.1.1
@@ -513,6 +513,10 @@ packages:
     resolution: {integrity: sha512-V8GImKs3TeQRxRtXFpG2wl19V7444NIOTDF24AWuIbmNaNYOQMWRbjcGDXV5B+0n887fgDcuMNOmlul+k+oJtw==}
     dev: false
 
+  /@octokit/openapi-types@19.0.0:
+    resolution: {integrity: sha512-PclQ6JGMTE9iUStpzMkwLCISFn/wDeRjkZFIKALpvJQNBGwDoYYi2fFvuHwssoQ1rXI5mfh6jgTgWuddeUzfWw==}
+    dev: false
+
   /@octokit/plugin-paginate-rest@2.21.3(@octokit/core@3.6.0):
     resolution: {integrity: sha512-aCZTEf0y2h3OLbrgKkrfFdjRL6eSOo8komneVQJnYecAxIej7Bafor2xhuDJOIFau4pk0i/P28/XgtbyPF0ZHw==}
     peerDependencies:
@@ -577,6 +581,12 @@ packages:
     resolution: {integrity: sha512-Fz0+7GyLm/bHt8fwEqgvRBWwIV1S6wRRyq+V6exRKLVWaKGsuy6H9QFYeBVDV7rK6fO3XwHgQOPxv+cLj2zpXQ==}
     dependencies:
       '@octokit/openapi-types': 18.0.0
+    dev: false
+
+  /@octokit/types@12.0.0:
+    resolution: {integrity: sha512-EzD434aHTFifGudYAygnFlS1Tl6KhbTynEWELQXIbTY8Msvb5nEqTZIm7sbPEt4mQYLZwu3zPKVdeIrw0g7ovg==}
+    dependencies:
+      '@octokit/openapi-types': 19.0.0
     dev: false
 
   /@octokit/types@6.41.0:
