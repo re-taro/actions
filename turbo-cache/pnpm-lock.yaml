@@ -35,8 +35,8 @@ devDependencies:
     specifier: 20.6.5
     version: 20.6.5
   '@types/wait-on':
-    specifier: 5.3.1
-    version: 5.3.1
+    specifier: 5.3.2
+    version: 5.3.2
   esbuild:
     specifier: 0.19.3
     version: 0.19.3
@@ -758,8 +758,8 @@ packages:
     resolution: {integrity: sha512-MFETx3tbTjE7Uk6vvnWINA/1iJ7LuMdO4fcq8UfF0pRbj01aGLduVvQcRyswuACJdpnHgg8E3rQLhaRdNEJS0w==}
     dev: true
 
-  /@types/wait-on@5.3.1:
-    resolution: {integrity: sha512-2FFOKCF/YydrMUaqg+fkk49qf0e5rDgwt6aQsMzFQzbS419h2gNOXyiwp/o2yYy27bi/C1z+HgfncryjGzlvgQ==}
+  /@types/wait-on@5.3.2:
+    resolution: {integrity: sha512-7NBSJs/YvbHlaYCJ7wIUF6t7ct3OMt525NmZ+US73pPlkmpxd9ADwfNxrRAmg8nWlcTMqR0PkhW7aYk3FLlvrQ==}
     dependencies:
       '@types/node': 20.6.5
     dev: true
