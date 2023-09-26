@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.3.0](https://github.com/re-taro/actions/compare/v3.2.2...v3.3.0) (2023-09-26)
+
+
+### Features
+
+* impl action for publish docker container image to ghcr.io ([b6fbe7d](https://github.com/re-taro/actions/commit/b6fbe7d4065d61eaecd1e9b471ae3bac4740bcb6))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @actions/core to v1.10.1 ([#100](https://github.com/re-taro/actions/issues/100)) ([ea74212](https://github.com/re-taro/actions/commit/ea74212ec44732fe11697ba3c787251b7e31d5cd))
+* **deps:** update dependency @octokit/auth-app to v6.0.1 ([#112](https://github.com/re-taro/actions/issues/112)) ([6e61be4](https://github.com/re-taro/actions/commit/6e61be41a248613af1c3225ebd6c55dbde1cfef3))
+* **deps:** update dependency @octokit/request to v8.1.2 ([#113](https://github.com/re-taro/actions/issues/113)) ([ba9daf2](https://github.com/re-taro/actions/commit/ba9daf2230a9771f1f710a013dffb8a04866f3af))
+* **deps:** update dependency fastify to v4.22.1 ([#84](https://github.com/re-taro/actions/issues/84)) ([3d74934](https://github.com/re-taro/actions/commit/3d749349faeab3ad1c76dd77bc98460e28b66237))
+* **deps:** update dependency fastify to v4.22.2 ([#86](https://github.com/re-taro/actions/issues/86)) ([3027f62](https://github.com/re-taro/actions/commit/3027f62495008dd22737d140c34123c7e8d6d028))
+* **deps:** update dependency fastify to v4.23.0 ([#98](https://github.com/re-taro/actions/issues/98)) ([6439218](https://github.com/re-taro/actions/commit/6439218ae7e0a7769d9934d6c63bfd34c54d567e))
+* **deps:** update dependency fastify to v4.23.1 ([#101](https://github.com/re-taro/actions/issues/101)) ([405cf26](https://github.com/re-taro/actions/commit/405cf260f4d18b03c5202a2a08042a7fbd6fb00d))
+* **deps:** update dependency fastify to v4.23.2 ([#103](https://github.com/re-taro/actions/issues/103)) ([885a478](https://github.com/re-taro/actions/commit/885a4786f586c60da3d41ec2282eefca9a740a0b))
+
 ## [3.2.2](https://github.com/re-taro/actions/compare/v3.2.1...v3.2.2) (2023-08-28)
 
 
