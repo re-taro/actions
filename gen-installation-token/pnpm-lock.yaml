@@ -32,8 +32,8 @@ devDependencies:
     specifier: 1.1.1
     version: 1.1.1
   '@types/node':
-    specifier: 20.8.4
-    version: 20.8.4
+    specifier: 20.8.5
+    version: 20.8.5
   esbuild:
     specifier: 0.19.4
     version: 0.19.4
@@ -652,7 +652,7 @@ packages:
   /@types/jsonwebtoken@9.0.2:
     resolution: {integrity: sha512-drE6uz7QBKq1fYqqoFKTDRdFCPHd5TCub75BM+D+cMx7NU9hUz7SESLfC2fSCXVFMO5Yj8sOWHuGqPgjc+fz0Q==}
     dependencies:
-      '@types/node': 20.8.4
+      '@types/node': 20.8.5
     dev: false
 
   /@types/mdast@3.0.12:
@@ -661,8 +661,8 @@ packages:
       '@types/unist': 2.0.7
     dev: true
 
-  /@types/node@20.8.4:
-    resolution: {integrity: sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==}
+  /@types/node@20.8.5:
+    resolution: {integrity: sha512-SPlobFgbidfIeOYlzXiEjSYeIJiOCthv+9tSQVpvk4PAdIIc+2SmjNVzWXk9t0Y7dl73Zdf+OgXKHX9XtkqUpw==}
     dependencies:
       undici-types: 5.25.3
 
