@@ -29,8 +29,8 @@ devDependencies:
     specifier: 2.0.2
     version: 2.0.2
   '@types/is-base64':
-    specifier: 1.1.1
-    version: 1.1.1
+    specifier: 1.1.2
+    version: 1.1.2
   '@types/node':
     specifier: 20.8.6
     version: 20.8.6
@@ -637,8 +637,8 @@ packages:
     resolution: {integrity: sha512-wJsiX1tosQ+J5+bY5LrSahHxr2wT+uME5UDwdN1kg4frt40euqA+wzECkmq4t5QbveHiJepfdThgQrPw6KiSlg==}
     dev: false
 
-  /@types/is-base64@1.1.1:
-    resolution: {integrity: sha512-JgnGhP+MeSHEQmvxcobcwPEP4Ew56voiq9/0hmP/41lyQ/3gBw/ZCIRy2v+QkEOdeCl58lRcrf6+Y6WMlJGETA==}
+  /@types/is-base64@1.1.2:
+    resolution: {integrity: sha512-TBuMnv3zN+vFSOKiMjktcy/2Jr7P54GxRgL9CyPgBq8Ui0DNLuvZxydyHmpPVaMmCOAdCoyGjPCnNYzfzIVtvA==}
     dev: true
 
   /@types/json-schema@7.0.12:
