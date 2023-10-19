@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.5.1
     version: 1.5.1
   fastify:
-    specifier: 4.24.2
-    version: 4.24.2
+    specifier: 4.24.3
+    version: 4.24.3
   lazy-strict-env:
     specifier: 0.3.1
     version: 0.3.1(zod@3.22.4)
@@ -2267,8 +2267,8 @@ packages:
     resolution: {integrity: sha512-cIusKBIt/R/oI6z/1nyfe2FvGKVTohVRfvkOhvx0nCEW+xf5NoCXjAHcWp93uOUBchzYcsvPlrapAdX1uW+YGg==}
     dev: false
 
-  /fastify@4.24.2:
-    resolution: {integrity: sha512-V/7fdhFas7HoAyjD8ha8wPCeiRLUzPgwwM5dSSUx/eBUv7GvG61YzjggqOchMOsa7Sw32MNN4uCCoFrl+9ccJA==}
+  /fastify@4.24.3:
+    resolution: {integrity: sha512-6HHJ+R2x2LS3y1PqxnwEIjOTZxFl+8h4kSC/TuDPXtA+v2JnV9yEtOsNSKK1RMD7sIR2y1ZsA4BEFaid/cK5pg==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.4.0
