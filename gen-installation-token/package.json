@@ -29,7 +29,7 @@
     "is-base64": "1.1.0"
   },
   "devDependencies": {
-    "@re-taro/eslint-config": "1.10.3",
+    "@re-taro/eslint-config": "1.10.4",
     "@tsconfig/strictest": "2.0.2",
     "@types/is-base64": "1.1.2",
     "@types/node": "20.8.7",
