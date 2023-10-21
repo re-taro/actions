@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.3.2](https://github.com/re-taro/actions/compare/v3.3.1...v3.3.2) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @actions/github to v6 ([#141](https://github.com/re-taro/actions/issues/141)) ([0f83ed5](https://github.com/re-taro/actions/commit/0f83ed5d288b953a357719e4e77bc867547d1d33))
+* **deps:** update dependency @octokit/request to v8.1.3 ([#135](https://github.com/re-taro/actions/issues/135)) ([ab12efc](https://github.com/re-taro/actions/commit/ab12efc441517ec4c5958268ac3b56dcb503695d))
+* **deps:** update dependency @octokit/request to v8.1.4 ([#140](https://github.com/re-taro/actions/issues/140)) ([b233c04](https://github.com/re-taro/actions/commit/b233c047e2ef031ab45834af05ff86e12c6595dd))
+* **deps:** update dependency fastify to v4.24.0 ([#142](https://github.com/re-taro/actions/issues/142)) ([d056179](https://github.com/re-taro/actions/commit/d056179c9d92c72e26fb09ffb9ea2cd298f4547d))
+* **deps:** update dependency fastify to v4.24.1 ([#144](https://github.com/re-taro/actions/issues/144)) ([d20b1f8](https://github.com/re-taro/actions/commit/d20b1f8721920f519cbdf912a2e34b7bfdef93ed))
+* **deps:** update dependency fastify to v4.24.2 ([#147](https://github.com/re-taro/actions/issues/147)) ([22943de](https://github.com/re-taro/actions/commit/22943de7f5663d01d679efd7b9872a13706729b5))
+* **deps:** update dependency fastify to v4.24.3 ([#156](https://github.com/re-taro/actions/issues/156)) ([e1eefb4](https://github.com/re-taro/actions/commit/e1eefb407ffea2f61126e8ab9335effc5f8fdf31))
+* **deps:** update dependency zod to v3.22.3 ([#132](https://github.com/re-taro/actions/issues/132)) ([b760bec](https://github.com/re-taro/actions/commit/b760beca5fee0dc4513c50d478d3710dbfdd1ff7))
+* **deps:** update dependency zod to v3.22.4 ([#134](https://github.com/re-taro/actions/issues/134)) ([b525f7d](https://github.com/re-taro/actions/commit/b525f7d1e99f5e08cae8cd63ed231008fd59667a))
+
 ## [3.3.1](https://github.com/re-taro/actions/compare/v3.3.0...v3.3.1) (2023-09-30)
 
 
