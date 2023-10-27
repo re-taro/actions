@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.3](https://github.com/re-taro/actions/compare/v3.3.2...v3.3.3) (2023-10-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1.6.0 ([#164](https://github.com/re-taro/actions/issues/164)) ([d931323](https://github.com/re-taro/actions/commit/d931323ee67b9785bafcb6fc87706a9b3a666e64))
+
 ## [3.3.2](https://github.com/re-taro/actions/compare/v3.3.1...v3.3.2) (2023-10-21)
 
 
