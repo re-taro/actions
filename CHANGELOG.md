@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/re-taro/actions/compare/v3.3.3...v3.4.0) (2023-10-27)
+
+
+### Features
+
+* impl sync-changeset-dependabot action ([#167](https://github.com/re-taro/actions/issues/167)) ([02c57ce](https://github.com/re-taro/actions/commit/02c57ce0e83aad9347fa78f8698ee43db773f2a6))
+
 ## [3.3.3](https://github.com/re-taro/actions/compare/v3.3.2...v3.3.3) (2023-10-27)
 
 
