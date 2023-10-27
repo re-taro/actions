@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1](https://github.com/re-taro/actions/compare/v3.4.0...v3.4.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* rename action ([#170](https://github.com/re-taro/actions/issues/170)) ([e143676](https://github.com/re-taro/actions/commit/e14367688b08223a43d70b6de1730bf784a9b7e5))
+
 ## [3.4.0](https://github.com/re-taro/actions/compare/v3.3.3...v3.4.0) (2023-10-27)
 
 
