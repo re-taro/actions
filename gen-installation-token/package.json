@@ -11,15 +11,16 @@
     "url": "https://re-taro.dev"
   },
   "main": "lib/index.cjs",
+  "type": "module",
   "scripts": {
     "build": "esbuild src/main.ts --bundle --minify --platform=node --target=es2021 --outfile=lib/index.cjs",
     "lint": "run-s -c lint:*",
-    "lint:eslint": "eslint . --ext .ts,.cjs,json",
-    "lint:prettier": "prettier --check **/*.{ts,cjs,json}",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier . -c",
     "lint:ts": "tsc -p . --noEmit",
     "fmt": "run-s -c fmt:*",
     "fmt:eslint": "pnpm lint:eslint --fix",
-    "fmt:prettier": "prettier --write **/*.{ts,cjs,json}"
+    "fmt:prettier": "prettier . -w"
   },
   "dependencies": {
     "@actions/core": "1.10.1",
