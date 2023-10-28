@@ -1,8 +1,9 @@
-import * as process from "process";
-import * as cp from "child_process";
-import * as path from "path";
-import { afterAll, beforeAll, expect, it } from "vitest";
+import * as cp from "node:child_process";
+import * as path from "node:path";
+import * as process from "node:process";
+
 import axios from "axios";
+import { afterAll, beforeAll, expect, it } from "vitest";
 
 beforeAll(() => {
   const np = process.execPath;
@@ -12,6 +13,7 @@ beforeAll(() => {
 
 it("works", async () => {
   const { data } = await axios.get("http://localhost:41230/");
+
   expect(data).toEqual({ ok: true });
 });
 
@@ -28,7 +30,8 @@ it("can save and load", async () => {
   const { data } = await axios.get("http://localhost:41230/v8/artifacts/123", {
     responseType: "arraybuffer",
   });
-  expect(Buffer.from(data).toString()).toEqual("meow");
+
+  expect(Buffer.from(data).toString()).toBe("meow");
 });
 
 afterAll(async () => {

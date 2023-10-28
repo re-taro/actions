@@ -1,9 +1,10 @@
 import { Buffer } from "node:buffer";
+
 import { getInput, info, setFailed, setOutput, setSecret } from "@actions/core";
-import isBase64 from "is-base64";
 import { getOctokit } from "@actions/github";
 import { createAppAuth } from "@octokit/auth-app";
 import { request } from "@octokit/request";
+import isBase64 from "is-base64";
 
 async function run(): Promise<void> {
   try {
@@ -81,6 +82,7 @@ async function fetch({
       await octokit.rest.apps.createInstallationAccessToken({
         installation_id: installationId,
       });
+
     return installation.token;
   } catch (error: unknown) {
     throw new Error("Could not create installation access token.", {

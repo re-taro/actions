@@ -6,11 +6,9 @@ import {
   openSync,
   statSync,
 } from "node:fs";
-import { pipeline } from "node:stream/promises";
 import { Readable } from "node:stream";
-import axios from "axios";
-import waitOn from "wait-on";
-import Fastify from "fastify";
+import { pipeline } from "node:stream/promises";
+
 import {
   debug,
   exportVariable as exportVariable$,
@@ -18,15 +16,33 @@ import {
   info,
   setFailed,
 } from "@actions/core";
-import { Env } from "lazy-strict-env";
-import { z } from "zod";
 import type { AxiosInstance } from "axios";
+import axios from "axios";
+import Fastify from "fastify";
+import { Env } from "lazy-strict-env";
+import waitOn from "wait-on";
+import { z } from "zod";
 
-const serverPort = 41230;
+const serverPort = 41_230;
 const serverLogFile = "/tmp/turbogha.log";
 const cacheVersion = "turbogha_v2";
 const cachePrefix = getInput("cache-prefix") || "turbogha_";
 const getCacheKey = (hash: string): string => `${cachePrefix}${hash}`;
+
+const handleAxiosError =
+  (message: string): ((err: any) => never) =>
+  (err) => {
+    if (err.response) {
+      const data = JSON.stringify(err.response.data);
+      debug(
+        `Response status ${err.response.status}: ${err.response.statusText}`,
+      );
+      debug(`Response headers: ${JSON.stringify(err.response.headers)}`);
+      debug(`Response data: ${data}`);
+      throw new Error(`${message}: ${err.message}`, { cause: err });
+    }
+    throw err;
+  };
 
 async function run(): Promise<void> {
   if (process.argv[2] === "--server") {
@@ -41,6 +57,7 @@ async function run(): Promise<void> {
       Readable.from([Buffer.from("meow")], { objectMode: false }),
     );
   }
+
   return launchServer();
 }
 
@@ -66,15 +83,15 @@ async function launchServer(): Promise<void> {
 
     await waitOn({
       resources: [`http-get://localhost:${serverPort}`],
-      timeout: 10000,
+      timeout: 10_000,
     });
-    info(`Server is now up and running.`);
+    info("Server is now up and running.");
 
     info("The following environment variables are exported:");
-    const exportVariable = (name: string, value: string): void => {
+    function exportVariable(name: string, value: string): void {
       exportVariable$(name, value);
       info(`  ${name}=${value}`);
-    };
+    }
     exportVariable("TURBOGHA_PORT", `${serverPort}`);
     exportVariable("TURBO_API", `http://localhost:${serverPort}`);
     exportVariable("TURBO_TOKEN", "turbogha");
@@ -89,12 +106,11 @@ async function server(): Promise<void> {
     logger: true,
   });
 
-  fastify.get("/", async () => {
-    return { ok: true };
-  });
+  fastify.get("/", async () => ({ ok: true }));
 
   fastify.delete("/self", async () => {
     setTimeout(() => process.exit(0), 100);
+
     return { ok: true };
   });
 
@@ -111,10 +127,11 @@ async function server(): Promise<void> {
     await saveCache(
       request,
       hash,
-      +(request.headers["content-length"] || 0),
-      String(request.headers["x-artifact-tag"] || ""),
+      +(request.headers["content-length"] ?? 0),
+      String(request.headers["x-artifact-tag"] ?? ""),
       request.raw,
     );
+
     return { ok: true };
   });
 
@@ -124,6 +141,7 @@ async function server(): Promise<void> {
     const result = await getCache(request, hash);
     if (result === null) {
       reply.code(404);
+
       return { ok: false };
     }
     const [size, stream, artifactTag] = result;
@@ -134,6 +152,7 @@ async function server(): Promise<void> {
     if (artifactTag) {
       reply.header("x-artifact-tag", artifactTag);
     }
+
     return reply.send(stream);
   });
   await fastify.listen({ port: serverPort });
@@ -146,21 +165,20 @@ const env = Env(
   }),
 );
 
-function getCacheClient(): AxiosInstance {
-  return axios.create({
+const getCacheClient = (): AxiosInstance =>
+  axios.create({
     baseURL: `${env.ACTIONS_CACHE_URL.replace(/\/$/, "")}/_apis/artifactcache`,
     headers: {
       Authorization: `Bearer ${env.ACTIONS_RUNTIME_TOKEN}`,
       Accept: "application/json;api-version=6.0-preview.1",
     },
   });
-}
 
-type RequestContext = {
+interface RequestContext {
   log: {
     info: (message: string) => void;
   };
-};
+}
 
 async function saveCache(
   ctx: RequestContext,
@@ -171,14 +189,15 @@ async function saveCache(
 ): Promise<void> {
   if (!env.valid) {
     ctx.log.info(
-      `Using filesystem cache because cache API env vars are not set`,
+      "Using filesystem cache because cache API env vars are not set",
     );
     await pipeline(stream, createWriteStream(`/tmp/${hash}.tg.bin`));
+
     return;
   }
   const client = getCacheClient();
   const { data } = await client
-    .post(`/caches`, {
+    .post("/caches", {
       key: getCacheKey(hash) + (tag ? `#${tag}` : ""),
       version: cacheVersion,
     })
@@ -213,12 +232,13 @@ async function getCache(
     const path = `/tmp/${hash}.tg.bin`;
     if (!existsSync(path)) return null;
     const size = statSync(path).size;
+
     return [size, createReadStream(path), undefined];
   }
   const client = getCacheClient();
   const cacheKey = getCacheKey(hash);
   const { data, status } = await client
-    .get(`/caches`, {
+    .get("/caches", {
       params: {
         keys: cacheKey,
         version: cacheVersion,
@@ -228,18 +248,21 @@ async function getCache(
     .catch(handleAxiosError("Unable to query cache"));
   ctx.log.info(`Cache lookup for ${cacheKey}: ${status}`);
   if (!data) {
-    ctx.log.info(`Cache lookup did not return data`);
+    ctx.log.info("Cache lookup did not return data");
+
     return null;
   }
   const [foundCacheKey, artifactTag] = String(data.cacheKey).split("#");
   if (foundCacheKey !== cacheKey) {
     ctx.log.info(`Cache key mismatch: ${foundCacheKey} !== ${cacheKey}`);
+
     return null;
   }
   const resp = await axios.get(data.archiveLocation, {
     responseType: "stream",
   });
   const size = +(resp.headers["content-length"] || 0);
+
   return [size, resp.data, artifactTag];
 }
 
@@ -247,22 +270,8 @@ run();
 
 function parseArgv(arg: string | undefined) {
   if (!arg || typeof arg !== "string") {
-    throw new Error(`Argument is required`);
+    throw new Error("Argument is required");
   }
-  return arg;
-}
 
-function handleAxiosError(message: string): (err: any) => never {
-  return (err) => {
-    if (err.response) {
-      const data = JSON.stringify(err.response.data);
-      debug(
-        `Response status ${err.response.status}: ${err.response.statusText}`,
-      );
-      debug(`Response headers: ${JSON.stringify(err.response.headers)}`);
-      debug(`Response data: ${data}`);
-      throw new Error(`${message}: ${err.message}`, { cause: err });
-    }
-    throw err;
-  };
+  return arg;
 }
