@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@re-taro/eslint-config':
-    specifier: 2.1.1
-    version: 2.1.1(eslint-plugin-import@2.28.1)(eslint@8.52.0)(prettier@3.0.3)(svelte@4.2.2)(typescript@5.2.2)(vitest@0.34.6)
+    specifier: 2.2.0
+    version: 2.2.0(eslint-plugin-import@2.28.1)(eslint@8.52.0)(prettier@3.0.3)(svelte@4.2.2)(typescript@5.2.2)(vitest@0.34.6)
   '@tsconfig/strictest':
     specifier: 2.0.2
     version: 2.0.2
@@ -104,6 +104,11 @@ packages:
     dependencies:
       '@babel/highlight': 7.22.10
       chalk: 2.4.2
+    dev: true
+
+  /@babel/helper-validator-identifier@7.22.20:
+    resolution: {integrity: sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==}
+    engines: {node: '>=6.9.0'}
     dev: true
 
   /@babel/helper-validator-identifier@7.22.5:
@@ -908,8 +913,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@re-taro/eslint-config@2.1.1(eslint-plugin-import@2.28.1)(eslint@8.52.0)(prettier@3.0.3)(svelte@4.2.2)(typescript@5.2.2)(vitest@0.34.6):
-    resolution: {integrity: sha512-/CRL8iRSklpZs6SXQDMUM6nbkpIE2d7J/WvU5IPcKYVHbUvKsVO7pzLZK1bR1mgWrCMuX7L6vf+7r0+5xOdi6Q==}
+  /@re-taro/eslint-config@2.2.0(eslint-plugin-import@2.28.1)(eslint@8.52.0)(prettier@3.0.3)(svelte@4.2.2)(typescript@5.2.2)(vitest@0.34.6):
+    resolution: {integrity: sha512-wGQmJIKrB+tW+gmHiNE4s3jwsh8CJhT6BSm4CYHhpj7ZCWhdmrFuqT5bLkGGsRjMkF+gGvPNzjujPT0YI63ubg==}
     peerDependencies:
       eslint: '>=8.40.0'
       prettier: ^3.0.0
@@ -919,7 +924,7 @@ packages:
       '@html-eslint/eslint-plugin': 0.20.0
       '@html-eslint/parser': 0.20.0
       '@next/eslint-plugin-next': 14.0.0
-      '@re-taro/eslint-plugin': 2.1.1(eslint@8.52.0)(typescript@5.2.2)
+      '@re-taro/eslint-plugin': 2.2.0(eslint@8.52.0)(typescript@5.2.2)
       '@typescript-eslint/eslint-plugin': 6.9.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)(typescript@5.2.2)
       '@typescript-eslint/parser': 6.9.0(eslint@8.52.0)(typescript@5.2.2)
       '@unocss/eslint-config': 0.57.1(eslint@8.52.0)(typescript@5.2.2)
@@ -948,9 +953,10 @@ packages:
       eslint-plugin-regexp: 2.1.1(eslint@8.52.0)
       eslint-plugin-simple-import-sort: 10.0.0(eslint@8.52.0)
       eslint-plugin-solid: 0.13.0(eslint@8.52.0)(typescript@5.2.2)
+      eslint-plugin-storybook: 0.6.15(eslint@8.52.0)(typescript@5.2.2)
       eslint-plugin-svelte: 2.34.0(eslint@8.52.0)(svelte@4.2.2)
       eslint-plugin-toml: 0.6.0(eslint@8.52.0)
-      eslint-plugin-unicorn: 48.0.1(eslint@8.52.0)
+      eslint-plugin-unicorn: 49.0.0(eslint@8.52.0)
       eslint-plugin-unused-imports: 3.0.0(@typescript-eslint/eslint-plugin@6.9.0)(eslint@8.52.0)
       eslint-plugin-vitest: 0.3.8(@typescript-eslint/eslint-plugin@6.9.0)(eslint@8.52.0)(typescript@5.2.2)(vitest@0.34.6)
       eslint-plugin-vue: 9.18.1(eslint@8.52.0)
@@ -974,8 +980,8 @@ packages:
       - vitest
     dev: true
 
-  /@re-taro/eslint-plugin@2.1.1(eslint@8.52.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-u80X/Y02ldH1rqSiwJ4SsFpvla/DCBKBhKnyYFXofW1viVBRlyMOzolm/qckFmTyrxtrp0XvJwNglDNOb3tStg==}
+  /@re-taro/eslint-plugin@2.2.0(eslint@8.52.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-q8avLwOevUZRoYPfWr7Iztsmc+MlAlTLDtyGYIkQPn1KYeCHX2ElMXC0RaUJZYKEMTwPC3BcfBxWNlpiOgsPMw==}
     dependencies:
       '@typescript-eslint/types': 6.2.1
       '@typescript-eslint/utils': 6.2.1(eslint@8.52.0)(typescript@5.2.2)
@@ -987,6 +993,12 @@ packages:
 
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
+    dev: true
+
+  /@storybook/csf@0.0.1:
+    resolution: {integrity: sha512-USTLkZze5gkel8MYCujSRBVIrUQ3YPBrLOx7GNk/0wttvVtlzWXAq9eLbQ4p/NicGxP+3T7KPEMVV//g+yubpw==}
+    dependencies:
+      lodash: 4.17.21
     dev: true
 
   /@tsconfig/strictest@2.0.2:
@@ -1121,7 +1133,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@eslint-community/regexpp': 4.6.2
+      '@eslint-community/regexpp': 4.10.0
       '@typescript-eslint/parser': 6.9.0(eslint@8.52.0)(typescript@5.2.2)
       '@typescript-eslint/scope-manager': 6.9.0
       '@typescript-eslint/type-utils': 6.9.0(eslint@8.52.0)(typescript@5.2.2)
@@ -2478,7 +2490,7 @@ packages:
       eslint: '>=8'
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.52.0)
-      '@eslint-community/regexpp': 4.6.2
+      '@eslint-community/regexpp': 4.10.0
       eslint: 8.52.0
     dev: true
 
@@ -2796,6 +2808,22 @@ packages:
       - typescript
     dev: true
 
+  /eslint-plugin-storybook@0.6.15(eslint@8.52.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-lAGqVAJGob47Griu29KXYowI4G7KwMoJDOkEip8ujikuDLxU+oWJ1l0WL6F2oDO4QiyUFXvtDkEkISMOPzo+7w==}
+    engines: {node: 12.x || 14.x || >= 16}
+    peerDependencies:
+      eslint: '>=6'
+    dependencies:
+      '@storybook/csf': 0.0.1
+      '@typescript-eslint/utils': 5.62.0(eslint@8.52.0)(typescript@5.2.2)
+      eslint: 8.52.0
+      requireindex: 1.2.0
+      ts-dedent: 2.2.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+    dev: true
+
   /eslint-plugin-svelte@2.34.0(eslint@8.52.0)(svelte@4.2.2):
     resolution: {integrity: sha512-4RYUgNai7wr0v+T/kljMiYSjC/oqwgq5i+cPppawryAayj4C7WK1ixFlWCGmNmBppnoKCl4iA4ZPzPtlHcb4CA==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -2839,13 +2867,13 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-unicorn@48.0.1(eslint@8.52.0):
-    resolution: {integrity: sha512-FW+4r20myG/DqFcCSzoumaddKBicIPeFnTrifon2mWIzlfyvzwyqZjqVP7m4Cqr/ZYisS2aiLghkUWaPg6vtCw==}
+  /eslint-plugin-unicorn@49.0.0(eslint@8.52.0):
+    resolution: {integrity: sha512-0fHEa/8Pih5cmzFW5L7xMEfUTvI9WKeQtjmKpTUmY+BiFCDxkxrTdnURJOHKykhtwIeyYsxnecbGvDCml++z4Q==}
     engines: {node: '>=16'}
     peerDependencies:
-      eslint: '>=8.44.0'
+      eslint: '>=8.52.0'
     dependencies:
-      '@babel/helper-validator-identifier': 7.22.5
+      '@babel/helper-validator-identifier': 7.22.20
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.52.0)
       ci-info: 3.8.0
       clean-regexp: 1.0.0
@@ -2854,7 +2882,6 @@ packages:
       indent-string: 4.0.0
       is-builtin-module: 3.2.1
       jsesc: 3.0.2
-      lodash: 4.17.21
       pluralize: 8.0.0
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
@@ -5659,6 +5686,11 @@ packages:
       typescript: '>=4.2.0'
     dependencies:
       typescript: 5.2.2
+    dev: true
+
+  /ts-dedent@2.2.0:
+    resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==}
+    engines: {node: '>=6.10'}
     dev: true
 
   /tsconfig-paths@3.14.2:
