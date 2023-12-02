@@ -14,7 +14,7 @@ inputs:
     description: The full name of the repository for which the token will be requested.
     default: ${{ github.repository }}
 runs:
-  using: node16
+  using: node20
   main: lib/index.cjs
 outputs:
   token:
