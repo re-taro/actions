@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.5.0](https://github.com/re-taro/actions/compare/v3.4.1...v3.5.0) (2023-12-02)
+
+
+### Features
+
+* update setup-node ([#221](https://github.com/re-taro/actions/issues/221)) ([3590d79](https://github.com/re-taro/actions/commit/3590d793e6c8153cdeb95c08fd25f62b3dbf0240))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/request to v8.1.5 ([#189](https://github.com/re-taro/actions/issues/189)) ([e663636](https://github.com/re-taro/actions/commit/e6636362e37034097f665b4c523086b3d363ab2d))
+* **deps:** update dependency @octokit/request to v8.1.6 ([#208](https://github.com/re-taro/actions/issues/208)) ([8fa4ad0](https://github.com/re-taro/actions/commit/8fa4ad0617179232ab7a2860709840b94996493b))
+* **deps:** update dependency axios to v1.6.1 ([#188](https://github.com/re-taro/actions/issues/188)) ([00710d6](https://github.com/re-taro/actions/commit/00710d6cff5ba814e9116e5825a45741f975f6f6))
+* **deps:** update dependency axios to v1.6.2 ([#197](https://github.com/re-taro/actions/issues/197)) ([fbde02b](https://github.com/re-taro/actions/commit/fbde02b9437cf22b73c414dbbdeb683b54f0445b))
+* **deps:** update dependency wait-on to v7.1.0 ([#181](https://github.com/re-taro/actions/issues/181)) ([194b08f](https://github.com/re-taro/actions/commit/194b08f41f040ac47e9b7f8ff6a5123cc85f4e87))
+* **deps:** update dependency wait-on to v7.2.0 ([#196](https://github.com/re-taro/actions/issues/196)) ([c3c3c9f](https://github.com/re-taro/actions/commit/c3c3c9fc4f9382d4da2437f27617ad121709b6b5))
+
 ## [3.4.1](https://github.com/re-taro/actions/compare/v3.4.0...v3.4.1) (2023-10-27)
 
 
