@@ -6,6 +6,6 @@ inputs:
     required: false
     default: turbogha_
 runs:
-  using: node16
+  using: node20
   main: lib/index.cjs
   post: lib/post.cjs
