@@ -14,7 +14,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - uses: actions/setup-node@v4.0.0
+    - uses: actions/setup-node@v4.0.1
       with:
         registry-url: https://registry.npmjs.org/
     - run: npm publish
@@ -22,7 +22,7 @@ runs:
       shell: sh
       env:
         NODE_AUTH_TOKEN: ${{ inputs.npm-token }}
-    - uses: actions/setup-node@v4.0.0
+    - uses: actions/setup-node@v4.0.1
       if: ${{ inputs.github-token }}
       with:
         registry-url: https://npm.pkg.github.com/
