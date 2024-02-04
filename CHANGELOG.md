@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.5.1](https://github.com/re-taro/actions/compare/v3.5.0...v3.5.1) (2024-02-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/auth-app to v6.0.2 ([#246](https://github.com/re-taro/actions/issues/246)) ([23c3cb1](https://github.com/re-taro/actions/commit/23c3cb18be9ca8561e7cf5818faf4e39497c7218))
+* **deps:** update dependency @octokit/auth-app to v6.0.3 ([#264](https://github.com/re-taro/actions/issues/264)) ([7e61454](https://github.com/re-taro/actions/commit/7e61454bb9dda0f0bdbd01f2be63db61d55aa3e6))
+* **deps:** update dependency axios to v1.6.3 ([#253](https://github.com/re-taro/actions/issues/253)) ([9f11347](https://github.com/re-taro/actions/commit/9f11347698031d22435cf7358fce7045da472292))
+* **deps:** update dependency axios to v1.6.4 ([#258](https://github.com/re-taro/actions/issues/258)) ([f051c60](https://github.com/re-taro/actions/commit/f051c605fd077c7e8c12da9b5c631f71bb2694ef))
+* **deps:** update dependency axios to v1.6.5 ([#262](https://github.com/re-taro/actions/issues/262)) ([0d8e363](https://github.com/re-taro/actions/commit/0d8e3637a3a6bc13f40f2c90053ce586bb885ace))
+* **deps:** update dependency axios to v1.6.6 ([#288](https://github.com/re-taro/actions/issues/288)) ([444c901](https://github.com/re-taro/actions/commit/444c901dbbcfd94621be4ab4e92ec3d68003c52b))
+* **deps:** update dependency axios to v1.6.7 ([#289](https://github.com/re-taro/actions/issues/289)) ([9df9f57](https://github.com/re-taro/actions/commit/9df9f57801fbfb4e497f9de6a7883a05cfd72b28))
+* **deps:** update dependency fastify to v4.25.0 ([#237](https://github.com/re-taro/actions/issues/237)) ([9b9c282](https://github.com/re-taro/actions/commit/9b9c2822c75d4174f74e9fd1a0f7bfb1f288beec))
+* **deps:** update dependency fastify to v4.25.1 ([#239](https://github.com/re-taro/actions/issues/239)) ([d50e990](https://github.com/re-taro/actions/commit/d50e990b86b653e14cf8928efc633d36370f2920))
+* **deps:** update dependency fastify to v4.25.2 ([#251](https://github.com/re-taro/actions/issues/251)) ([2719082](https://github.com/re-taro/actions/commit/2719082e193325f747ede438255222ec9cad196c))
+* **deps:** update dependency fastify to v4.26.0 ([#298](https://github.com/re-taro/actions/issues/298)) ([68abaaf](https://github.com/re-taro/actions/commit/68abaaf2a731942e24ea0bdc64a830b83db39f46))
+
 ## [3.5.0](https://github.com/re-taro/actions/compare/v3.4.1...v3.5.0) (2023-12-02)
 
 
