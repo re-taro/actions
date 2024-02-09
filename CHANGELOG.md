@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.2](https://github.com/re-taro/actions/compare/v3.5.1...v3.5.2) (2024-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/request to v8.2.0 ([#310](https://github.com/re-taro/actions/issues/310)) ([d7e488e](https://github.com/re-taro/actions/commit/d7e488e73d409f2c90c23848838e6cd710a5c356))
+
 ## [3.5.1](https://github.com/re-taro/actions/compare/v3.5.0...v3.5.1) (2024-02-04)
 
 
