@@ -12,8 +12,8 @@ dependencies:
     specifier: 6.0.0
     version: 6.0.0
   '@octokit/auth-app':
-    specifier: 6.0.3
-    version: 6.0.3
+    specifier: 6.0.4
+    version: 6.0.4
   '@octokit/request':
     specifier: 8.2.0
     version: 8.2.0
@@ -517,8 +517,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /@octokit/auth-app@6.0.3:
-    resolution: {integrity: sha512-9N7IlBAKEJR3tJgPSubCxIDYGXSdc+2xbkjYpk9nCyqREnH8qEMoMhiEB1WgoA9yTFp91El92XNXAi+AjuKnfw==}
+  /@octokit/auth-app@6.0.4:
+    resolution: {integrity: sha512-TPmJYgd05ok3nzHj7Y6we/V7Ez1wU3ztLFW3zo/afgYFtqYZg0W7zb6Kp5ag6E85r8nCE1JfS6YZoZusa14o9g==}
     engines: {node: '>= 18'}
     dependencies:
       '@octokit/auth-oauth-app': 7.0.0
