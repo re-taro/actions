@@ -15,8 +15,8 @@ dependencies:
     specifier: 6.0.4
     version: 6.0.4
   '@octokit/request':
-    specifier: 9.0.0
-    version: 9.0.0
+    specifier: 9.0.1
+    version: 9.0.1
   is-base64:
     specifier: 1.1.0
     version: 1.1.0
@@ -681,8 +681,8 @@ packages:
       universal-user-agent: 6.0.0
     dev: false
 
-  /@octokit/request@9.0.0:
-    resolution: {integrity: sha512-hShsrZ40W8dz3TkyD5ifHNcrYfYpYF7Sh2x+ZKafA+eO0zNeKDTsbF1E0xrUf0mVYGeKL+NLMO5SnfAP22l05Q==}
+  /@octokit/request@9.0.1:
+    resolution: {integrity: sha512-kL+cAcbSl3dctYLuJmLfx6Iku2MXXy0jszhaEIjQNaCp4zjHXrhVAHeuaRdNvJjW9qjl3u1MJ72+OuBP0YW/pg==}
     engines: {node: '>= 18'}
     dependencies:
       '@octokit/endpoint': 10.0.0
