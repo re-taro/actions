@@ -22,7 +22,7 @@ jobs:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
       - id: release
-        uses: google-github-actions/release-please-action@v4.0.2
+        uses: google-github-actions/release-please-action@v4.1.0
         with:
           token: ${{ steps.bot.outputs.token }}
           release-type: simple
