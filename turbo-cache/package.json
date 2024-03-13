@@ -32,7 +32,7 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@re-taro/eslint-config": "3.1.1",
+    "@re-taro/eslint-config": "4.0.0",
     "@tsconfig/strictest": "2.0.3",
     "@types/node": "20.11.27",
     "@types/wait-on": "5.3.4",
