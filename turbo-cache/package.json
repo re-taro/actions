@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@re-taro/eslint-config": "4.0.0",
-    "@tsconfig/strictest": "2.0.3",
+    "@tsconfig/strictest": "2.0.4",
     "@types/node": "20.11.30",
     "@types/wait-on": "5.3.4",
     "esbuild": "0.20.2",
