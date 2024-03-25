@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.5.3](https://github.com/re-taro/actions/compare/v3.5.2...v3.5.3) (2024-03-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/auth-app to v6.0.4 ([#325](https://github.com/re-taro/actions/issues/325)) ([0a4b519](https://github.com/re-taro/actions/commit/0a4b51930c38daf75c61378c8c45431f8e7ff684))
+* **deps:** update dependency @octokit/request to v9 ([#328](https://github.com/re-taro/actions/issues/328)) ([b080850](https://github.com/re-taro/actions/commit/b080850030e1cf2b94785dc2296da172a2e60706))
+* **deps:** update dependency @octokit/request to v9.0.1 ([#331](https://github.com/re-taro/actions/issues/331)) ([3c18f7d](https://github.com/re-taro/actions/commit/3c18f7dfc43c0234ef6cfbd6ace48ef05940f545))
+* **deps:** update dependency axios to v1.6.8 ([#353](https://github.com/re-taro/actions/issues/353)) ([14f83e6](https://github.com/re-taro/actions/commit/14f83e6a18a6c66fc20c37d2ae2eef457417deb2))
+* **deps:** update dependency fastify to v4.26.1 ([#314](https://github.com/re-taro/actions/issues/314)) ([392725b](https://github.com/re-taro/actions/commit/392725b0a86934e617f301f8015e44e99136a7f2))
+* **deps:** update dependency fastify to v4.26.2 ([#336](https://github.com/re-taro/actions/issues/336)) ([32523ed](https://github.com/re-taro/actions/commit/32523ed408d7973fd029cde4001898ee9614885e))
+
 ## [3.5.2](https://github.com/re-taro/actions/compare/v3.5.1...v3.5.2) (2024-02-09)
 
 
