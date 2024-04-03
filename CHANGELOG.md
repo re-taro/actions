@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.4](https://github.com/re-taro/actions/compare/v3.5.3...v3.5.4) (2024-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/auth-app to v6.0.5 ([#365](https://github.com/re-taro/actions/issues/365)) ([63c883a](https://github.com/re-taro/actions/commit/63c883ab31a23cf85e3fbef2b14d57df47565b2c))
+
 ## [3.5.3](https://github.com/re-taro/actions/compare/v3.5.2...v3.5.3) (2024-03-24)
 
 
