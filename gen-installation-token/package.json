@@ -1,43 +1,41 @@
 {
-  "name": "gen-installation-token",
-  "description": "Generate GitHub App installation token",
-  "private": true,
-  "version": "0.0.0",
-  "packageManager": "pnpm@8.15.6",
-  "license": "MIT",
-  "author": {
-    "name": "Rintaro Itokawa",
-    "email": "me@re-taro.dev",
-    "url": "https://re-taro.dev"
-  },
-  "main": "lib/index.cjs",
-  "type": "module",
-  "scripts": {
-    "build": "esbuild src/main.ts --bundle --minify --platform=node --target=es2021 --outfile=lib/index.cjs",
-    "lint": "run-s -c lint:*",
-    "lint:eslint": "eslint .",
-    "lint:prettier": "prettier . -c",
-    "lint:ts": "tsc -p . --noEmit",
-    "fmt": "run-s -c fmt:*",
-    "fmt:eslint": "pnpm lint:eslint --fix",
-    "fmt:prettier": "prettier . -w"
-  },
-  "dependencies": {
-    "@actions/core": "1.10.1",
-    "@actions/github": "6.0.0",
-    "@octokit/auth-app": "6.1.1",
-    "@octokit/request": "9.1.0",
-    "is-base64": "1.1.0"
-  },
-  "devDependencies": {
-    "@re-taro/eslint-config": "4.1.0",
-    "@tsconfig/strictest": "2.0.5",
-    "@types/is-base64": "1.1.3",
-    "@types/node": "20.12.7",
-    "esbuild": "0.20.2",
-    "eslint": "9.0.0",
-    "npm-run-all": "4.1.5",
-    "prettier": "3.2.5",
-    "typescript": "5.4.5"
-  }
+	"name": "gen-installation-token",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"packageManager": "pnpm@8.15.6",
+	"description": "Generate GitHub App installation token",
+	"author": {
+		"name": "Rintaro Itokawa",
+		"email": "me@re-taro.dev",
+		"url": "https://re-taro.dev"
+	},
+	"license": "MIT",
+	"main": "lib/index.cjs",
+	"scripts": {
+		"build": "esbuild src/main.ts --bundle --minify --platform=node --target=es2021 --outfile=lib/index.cjs",
+		"lint": "run-s -c lint:*",
+		"lint:eslint": "eslint .",
+		"lint:ts": "tsc -p . --noEmit",
+		"fmt": "run-s -c fmt:*",
+		"fmt:eslint": "pnpm lint:eslint --fix"
+	},
+	"dependencies": {
+		"@actions/core": "1.10.1",
+		"@actions/github": "6.0.0",
+		"@octokit/auth-app": "6.1.1",
+		"@octokit/request": "9.1.0",
+		"is-base64": "1.1.0"
+	},
+	"devDependencies": {
+		"@re-taro/eslint-config": "4.1.0",
+		"@tsconfig/strictest": "2.0.5",
+		"@types/is-base64": "1.1.3",
+		"@types/node": "20.12.7",
+		"esbuild": "0.20.2",
+		"eslint": "9.0.0",
+		"eslint-plugin-format": "0.1.0",
+		"npm-run-all": "4.1.5",
+		"typescript": "5.4.5"
+	}
 }
