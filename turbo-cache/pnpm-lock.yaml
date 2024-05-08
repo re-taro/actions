@@ -19,13 +19,13 @@ importers:
         version: 4.27.0
       lazy-strict-env:
         specifier: 0.3.1
-        version: 0.3.1(zod@3.23.6)
+        version: 0.3.1(zod@3.23.7)
       wait-on:
         specifier: 7.2.0
         version: 7.2.0
       zod:
-        specifier: 3.23.6
-        version: 3.23.6
+        specifier: 3.23.7
+        version: 3.23.7
     devDependencies:
       '@re-taro/eslint-config':
         specifier: 4.1.0
@@ -2581,8 +2581,8 @@ packages:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
 
-  zod@3.23.6:
-    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
+  zod@3.23.7:
+    resolution: {integrity: sha512-NBeIoqbtOiUMomACV/y+V3Qfs9+Okr18vR5c/5pHClPpufWOrsx8TENboDPe265lFdfewX2yBtNTLPvnmCxwog==}
 
 snapshots:
 
@@ -4446,9 +4446,9 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  lazy-strict-env@0.3.1(zod@3.23.6):
+  lazy-strict-env@0.3.1(zod@3.23.7):
     dependencies:
-      zod: 3.23.6
+      zod: 3.23.7
 
   levn@0.4.1:
     dependencies:
@@ -5346,4 +5346,4 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  zod@3.23.6: {}
+  zod@3.23.7: {}
