@@ -12,8 +12,8 @@ importers:
         specifier: 1.10.1
         version: 1.10.1
       axios:
-        specifier: 1.7.0
-        version: 1.7.0
+        specifier: 1.7.1
+        version: 1.7.1
       fastify:
         specifier: 4.27.0
         version: 4.27.0
@@ -857,8 +857,8 @@ packages:
   avvio@8.3.0:
     resolution: {integrity: sha512-VBVH0jubFr9LdFASy/vNtm5giTrnbVquWBhT0fyizuNK2rQ7e7ONU2plZQWUNqtE1EmxFEb+kbSkFRkstiaS9Q==}
 
-  axios@1.7.0:
-    resolution: {integrity: sha512-IiB0wQeKyPRdsFVhBgIo31FbzOyf2M6wYl7/NVutFwFBRMiAbjNiydJIHKeLmPugF4kJLfA1uWZ82Is2QzqqFA==}
+  axios@1.7.1:
+    resolution: {integrity: sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -3337,7 +3337,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  axios@1.7.0:
+  axios@1.7.1:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -5273,7 +5273,7 @@ snapshots:
 
   wait-on@7.2.0:
     dependencies:
-      axios: 1.7.0
+      axios: 1.7.1
       joi: 17.11.0
       lodash: 4.17.21
       minimist: 1.2.8
