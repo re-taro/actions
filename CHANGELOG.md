@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.6.0](https://github.com/re-taro/actions/compare/v3.5.4...v3.6.0) (2024-05-30)
+
+
+### Features
+
+* re-build ([1396e53](https://github.com/re-taro/actions/commit/1396e53a52d0e0937741d940d0c4ee828290aaf6))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/auth-app to v6.1.0 ([#370](https://github.com/re-taro/actions/issues/370)) ([995de9e](https://github.com/re-taro/actions/commit/995de9e46c8b0c5b7586382de8f4b5f24cd2befe))
+* **deps:** update dependency @octokit/auth-app to v6.1.1 ([#377](https://github.com/re-taro/actions/issues/377)) ([d2bc917](https://github.com/re-taro/actions/commit/d2bc91717098a2b4c89f4b50b60b1fd6ea718380))
+* **deps:** update dependency @octokit/auth-app to v7 ([#405](https://github.com/re-taro/actions/issues/405)) ([7f88be3](https://github.com/re-taro/actions/commit/7f88be3952541fbd8aff26e83328e5f305bed3aa))
+* **deps:** update dependency @octokit/auth-app to v7.1.0 ([#419](https://github.com/re-taro/actions/issues/419)) ([b49c46e](https://github.com/re-taro/actions/commit/b49c46e9c9304dca48c69429acf9ff33e69f9d68))
+* **deps:** update dependency @octokit/request to v9.1.0 ([#380](https://github.com/re-taro/actions/issues/380)) ([a314946](https://github.com/re-taro/actions/commit/a314946cbbbbdd4915d51edb84414d13c3d81967))
+* **deps:** update dependency @octokit/request to v9.1.1 ([#385](https://github.com/re-taro/actions/issues/385)) ([f3f1cdc](https://github.com/re-taro/actions/commit/f3f1cdc86db0f6172ffd679ec8835ed0a66d79ff))
+* **deps:** update dependency axios to v1.7.0 ([#427](https://github.com/re-taro/actions/issues/427)) ([1d970b0](https://github.com/re-taro/actions/commit/1d970b0b31a7af1bac7c3d311f62beea1c434aaf))
+* **deps:** update dependency axios to v1.7.1 ([#428](https://github.com/re-taro/actions/issues/428)) ([c5f53a9](https://github.com/re-taro/actions/commit/c5f53a9fbe1da246a9676f4c1ad788f75b566687))
+* **deps:** update dependency axios to v1.7.2 ([#430](https://github.com/re-taro/actions/issues/430)) ([e040b05](https://github.com/re-taro/actions/commit/e040b05f4b62a6e0c2faff94c699c11542225a6d))
+* **deps:** update dependency fastify to v4.27.0 ([#413](https://github.com/re-taro/actions/issues/413)) ([be39453](https://github.com/re-taro/actions/commit/be39453013e8670d1b40b4c5ead196b8cacf4b83))
+* **deps:** update dependency zod to v3.22.5 ([#390](https://github.com/re-taro/actions/issues/390)) ([847aed5](https://github.com/re-taro/actions/commit/847aed5c906db928a1578bb1c6a8d354ad2f928a))
+* **deps:** update dependency zod to v3.23.0 ([#394](https://github.com/re-taro/actions/issues/394)) ([3d1370b](https://github.com/re-taro/actions/commit/3d1370b969eff1322dd4288947455b2bb3304d09))
+* **deps:** update dependency zod to v3.23.3 ([#397](https://github.com/re-taro/actions/issues/397)) ([dcdbbcb](https://github.com/re-taro/actions/commit/dcdbbcb4f487bb3a8a94b452deed3495bc944581))
+* **deps:** update dependency zod to v3.23.4 ([#398](https://github.com/re-taro/actions/issues/398)) ([31cfdcc](https://github.com/re-taro/actions/commit/31cfdcc2d89bff393588d0b5a9124b09eaa41ffc))
+* **deps:** update dependency zod to v3.23.5 ([#403](https://github.com/re-taro/actions/issues/403)) ([b7ac5cb](https://github.com/re-taro/actions/commit/b7ac5cb870362a373294aeee09a4af675b57ec13))
+* **deps:** update dependency zod to v3.23.6 ([#407](https://github.com/re-taro/actions/issues/407)) ([8f9dbca](https://github.com/re-taro/actions/commit/8f9dbca5203f00de55a85a115e59705df61b32ab))
+* **deps:** update dependency zod to v3.23.7 ([#415](https://github.com/re-taro/actions/issues/415)) ([9a879d6](https://github.com/re-taro/actions/commit/9a879d6d2ab23b6fffee014c872c05031a94fcd8))
+* **deps:** update dependency zod to v3.23.8 ([#417](https://github.com/re-taro/actions/issues/417)) ([57ed6e7](https://github.com/re-taro/actions/commit/57ed6e7edf9de415fc42bc7741833945b81ecbb4))
+
 ## [3.5.4](https://github.com/re-taro/actions/compare/v3.5.3...v3.5.4) (2024-04-03)
 
 
