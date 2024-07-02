@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.6.1](https://github.com/re-taro/actions/compare/v3.6.0...v3.6.1) (2024-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v4.28.0 ([#448](https://github.com/re-taro/actions/issues/448)) ([b24e907](https://github.com/re-taro/actions/commit/b24e907fd201b9e086cd34027696de256d7a32bb))
+* **deps:** update dependency fastify to v4.28.1 ([#462](https://github.com/re-taro/actions/issues/462)) ([531e363](https://github.com/re-taro/actions/commit/531e3634c2e52844e903d86ebd6edccaf543c739))
+
 ## [3.6.0](https://github.com/re-taro/actions/compare/v3.5.4...v3.6.0) (2024-05-30)
 
 
