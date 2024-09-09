@@ -3,7 +3,7 @@
   "description": "GitHub Actions workflows for @re-taro",
   "private": true,
   "version": "0.0.0",
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.10.0",
   "license": "MIT",
   "author": {
     "name": "Rintaro Itokawa",
