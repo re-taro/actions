@@ -21,7 +21,7 @@
 		"fmt:eslint": "pnpm lint:eslint --fix"
 	},
 	"dependencies": {
-		"@actions/core": "1.11.0",
+		"@actions/core": "1.11.1",
 		"@actions/github": "6.0.0",
 		"@octokit/auth-app": "7.1.1",
 		"@octokit/request": "9.1.3",
