@@ -48,7 +48,7 @@ runs:
             ;;
         esac
       shell: sh
-    - uses: actions/cache@v4.1.1
+    - uses: actions/cache@v4.1.2
       with:
         path: ${{ steps.cache.outputs.dir }}
         key: ${{ runner.os }}-${{ steps.package-manager.outputs.name }}-${{ hashFiles(format('**/{0}', steps.cache.outputs.lockfile)) }}
