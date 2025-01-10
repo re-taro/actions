@@ -21,8 +21,8 @@ importers:
         specifier: 0.3.1
         version: 0.3.1(zod@3.24.1)
       wait-on:
-        specifier: 8.0.1
-        version: 8.0.1
+        specifier: 8.0.2
+        version: 8.0.2
       zod:
         specifier: 3.24.1
         version: 3.24.1
@@ -2219,8 +2219,8 @@ packages:
       jsdom:
         optional: true
 
-  wait-on@8.0.1:
-    resolution: {integrity: sha512-1wWQOyR2LVVtaqrcIL2+OM+x7bkpmzVROa0Nf6FryXkS+er5Sa1kzFGjzZRqLnHa3n1rACFLeTwUqE1ETL9Mig==}
+  wait-on@8.0.2:
+    resolution: {integrity: sha512-qHlU6AawrgAIHlueGQHQ+ETcPLAauXbnoTKl3RKq20W0T8x0DKVAo5xWIYjHSyvHxQlcYbFdR0jp4T9bDVITFA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -4245,7 +4245,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   safe-buffer@5.2.1: {}
 
@@ -4490,7 +4490,7 @@ snapshots:
       - supports-color
       - terser
 
-  wait-on@8.0.1:
+  wait-on@8.0.2:
     dependencies:
       axios: 1.7.9
       joi: 17.13.3
