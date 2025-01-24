@@ -44,7 +44,7 @@ runs:
         username: ${{ github.repository_owner }}
         password: ${{ github.token }}
     - name: Build and push
-      uses: docker/build-push-action@v6.12.0
+      uses: docker/build-push-action@v6.13.0
       with:
         push: true
         tags: ${{ steps.meta.outputs.tags }}
