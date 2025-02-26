@@ -23,7 +23,7 @@ runs:
       uses: actions/checkout@v4.2.2
     - name: Docker meta
       id: meta
-      uses: docker/metadata-action@v5.6.1
+      uses: docker/metadata-action@v5.7.0
       with:
         images: |
           ${{ inputs.images }}
