@@ -24,7 +24,7 @@ runs:
         echo "name=${package_manager%%@*}" >> $GITHUB_OUTPUT
         echo "version=${package_manager##*@}" >> $GITHUB_OUTPUT
       shell: sh
-    - uses: actions/setup-node@v4.2.0
+    - uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
       with:
         registry-url: ${{ inputs.registry-url }}
         node-version: ${{ inputs.node-version }}
@@ -48,7 +48,7 @@ runs:
             ;;
         esac
       shell: sh
-    - uses: actions/cache@v4.2.2
+    - uses: actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf # v4.2.2
       with:
         path: ${{ steps.cache.outputs.dir }}
         key: ${{ runner.os }}-${{ steps.package-manager.outputs.name }}-${{ hashFiles(format('**/{0}', steps.cache.outputs.lockfile)) }}
