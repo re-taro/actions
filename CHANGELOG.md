@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.7.0](https://github.com/re-taro/actions/compare/v3.6.1...v3.7.0) (2025-03-24)
+
+
+### Features
+
+* pin digest ([d2e2ad2](https://github.com/re-taro/actions/commit/d2e2ad25a5b9a1f91abd0a53ad7d79add4dca018))
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1.8.4 ([#681](https://github.com/re-taro/actions/issues/681)) ([90fdc0d](https://github.com/re-taro/actions/commit/90fdc0d5a1e0e36e3d39b2361eb540cc317573e8))
+
 ## [3.6.1](https://github.com/re-taro/actions/compare/v3.6.0...v3.6.1) (2025-03-01)
 
 
