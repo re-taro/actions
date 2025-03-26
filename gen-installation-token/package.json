@@ -3,7 +3,7 @@
 	"type": "module",
 	"version": "0.0.0",
 	"private": true,
-	"packageManager": "pnpm@9.15.9",
+	"packageManager": "pnpm@10.6.5",
 	"description": "Generate GitHub App installation token",
 	"author": {
 		"name": "Rintaro Itokawa",
