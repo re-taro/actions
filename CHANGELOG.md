@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.7.1](https://github.com/re-taro/actions/compare/v3.7.0...v3.7.1) (2025-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v5.2.2 ([#691](https://github.com/re-taro/actions/issues/691)) ([1c4aa7a](https://github.com/re-taro/actions/commit/1c4aa7a0962a7ad78dc5c2dbc7a7795d3c4cd953))
+* **deps:** update dependency wait-on to v8.0.3 ([#689](https://github.com/re-taro/actions/issues/689)) ([dc7a389](https://github.com/re-taro/actions/commit/dc7a389f77266bb29ccfa3abb832482cc220c65f))
+
 ## [3.7.0](https://github.com/re-taro/actions/compare/v3.6.1...v3.7.0) (2025-03-24)
 
 
