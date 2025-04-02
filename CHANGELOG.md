@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.2](https://github.com/re-taro/actions/compare/v3.7.1...v3.7.2) (2025-04-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/auth-app to v7.2.0 ([#702](https://github.com/re-taro/actions/issues/702)) ([33c5162](https://github.com/re-taro/actions/commit/33c5162922729e8f041ece8a48a5e0ec5027a5c4))
+
 ## [3.7.1](https://github.com/re-taro/actions/compare/v3.7.0...v3.7.1) (2025-03-27)
 
 
