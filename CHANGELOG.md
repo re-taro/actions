@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.3](https://github.com/re-taro/actions/compare/v3.7.2...v3.7.3) (2025-04-10)
+
+
+### Bug Fixes
+
+* **deps:** update octokit monorepo ([#708](https://github.com/re-taro/actions/issues/708)) ([2e05d5c](https://github.com/re-taro/actions/commit/2e05d5c91d4aebb86072b356cab5963534e687eb))
+
 ## [3.7.2](https://github.com/re-taro/actions/compare/v3.7.1...v3.7.2) (2025-04-02)
 
 
