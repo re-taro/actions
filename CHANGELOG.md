@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.5](https://github.com/re-taro/actions/compare/v3.7.4...v3.7.5) (2025-04-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v3.24.3 ([#717](https://github.com/re-taro/actions/issues/717)) ([a3cb1d8](https://github.com/re-taro/actions/commit/a3cb1d851ccc57ee55c88bfa0019d7c3271bcb94))
+
 ## [3.7.4](https://github.com/re-taro/actions/compare/v3.7.3...v3.7.4) (2025-04-12)
 
 
