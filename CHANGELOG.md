@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.7.6](https://github.com/re-taro/actions/compare/v3.7.5...v3.7.6) (2025-04-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v5.3.1 ([#720](https://github.com/re-taro/actions/issues/720)) ([ef19f9b](https://github.com/re-taro/actions/commit/ef19f9bb0ad000d9410573a9a3b237cf0f9f3ac1))
+* **deps:** update dependency fastify to v5.3.2 ([#722](https://github.com/re-taro/actions/issues/722)) ([1a2bef7](https://github.com/re-taro/actions/commit/1a2bef7d0242e7164747183521ff1dc3830a29aa))
+
 ## [3.7.5](https://github.com/re-taro/actions/compare/v3.7.4...v3.7.5) (2025-04-17)
 
 
