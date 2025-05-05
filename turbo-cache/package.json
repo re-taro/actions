@@ -27,7 +27,7 @@
 		"fastify": "5.3.2",
 		"lazy-strict-env": "0.3.1",
 		"wait-on": "8.0.3",
-		"zod": "3.24.3"
+		"zod": "3.24.4"
 	},
 	"devDependencies": {
 		"@re-taro/eslint-config": "5.3.0",
