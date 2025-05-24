@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.7.7](https://github.com/re-taro/actions/compare/v3.7.6...v3.7.7) (2025-05-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v5.3.3 ([#750](https://github.com/re-taro/actions/issues/750)) ([16dcc13](https://github.com/re-taro/actions/commit/16dcc13235d5b8a41a7ab7eea68485d8a8198e7a))
+* **deps:** update dependency zod to v3.25.12 ([#762](https://github.com/re-taro/actions/issues/762)) ([817dec6](https://github.com/re-taro/actions/commit/817dec673630b3cec437115faa679a761bec0601))
+* **deps:** update dependency zod to v3.25.13 ([#763](https://github.com/re-taro/actions/issues/763)) ([7873392](https://github.com/re-taro/actions/commit/78733928f42fa42ed5aa65c841f42d88d0dac8bf))
+* **deps:** update dependency zod to v3.25.17 ([#764](https://github.com/re-taro/actions/issues/764)) ([151d683](https://github.com/re-taro/actions/commit/151d6838948be04e14109f6fd110df2a17efafde))
+* **deps:** update dependency zod to v3.25.20 ([#766](https://github.com/re-taro/actions/issues/766)) ([34e876b](https://github.com/re-taro/actions/commit/34e876b7a7fc11decbf4f6de7c79136bc9f640bd))
+* **deps:** update dependency zod to v3.25.23 ([#767](https://github.com/re-taro/actions/issues/767)) ([d1366da](https://github.com/re-taro/actions/commit/d1366da06515447a909613718fe1ec2233ac4242))
+* **deps:** update dependency zod to v3.25.27 ([#768](https://github.com/re-taro/actions/issues/768)) ([931ed51](https://github.com/re-taro/actions/commit/931ed51467b34dd635f19cdbac50bdb81d942d62))
+* **deps:** update dependency zod to v3.25.28 ([#769](https://github.com/re-taro/actions/issues/769)) ([0836cd2](https://github.com/re-taro/actions/commit/0836cd2922cebe2b27cc15cdb02883c269a5bca2))
+* **deps:** update dependency zod to v3.25.7 ([#759](https://github.com/re-taro/actions/issues/759)) ([ae01dd1](https://github.com/re-taro/actions/commit/ae01dd1f2aa9780adefda416045c34afa708b4fd))
+
 ## [3.7.6](https://github.com/re-taro/actions/compare/v3.7.5...v3.7.6) (2025-05-09)
 
 
