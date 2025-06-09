@@ -39,6 +39,6 @@
 		"eslint-plugin-format": "0.1.2",
 		"npm-run-all2": "7.0.2",
 		"typescript": "5.8.3",
-		"vitest": "3.2.2"
+		"vitest": "3.2.3"
 	}
 }
