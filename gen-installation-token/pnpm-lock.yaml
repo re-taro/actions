@@ -15,8 +15,8 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
       '@octokit/auth-app':
-        specifier: 7.2.1
-        version: 7.2.1
+        specifier: 7.2.2
+        version: 7.2.2
       '@octokit/request':
         specifier: 9.2.4
         version: 9.2.4
@@ -382,8 +382,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@octokit/auth-app@7.2.1':
-    resolution: {integrity: sha512-4jaopCVOtWN0V8qCx/1s2pkRqC6tcvIQM3kFB99eIpsP53GfsoIKO08D94b83n/V3iGihHmxWR2lXzE0NicUGg==}
+  '@octokit/auth-app@7.2.2':
+    resolution: {integrity: sha512-p6hJtEyQDCJEPN9ijjhEC/kpFHMHN4Gca9r+8S0S8EJi7NaWftaEmexjxxpT1DFBeJpN4u/5RE22ArnyypupJw==}
     engines: {node: '>= 18'}
 
   '@octokit/auth-oauth-app@8.1.4':
@@ -2132,7 +2132,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@octokit/auth-app@7.2.1':
+  '@octokit/auth-app@7.2.2':
     dependencies:
       '@octokit/auth-oauth-app': 8.1.4
       '@octokit/auth-oauth-user': 5.1.4
