@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: Setup Node.js
-        uses: re-taro/actions/setup-node@20b03e217c11761bfea51fde5891c1af063dd49e # v3.7.8
+        uses: re-taro/actions/setup-node@5460ab0884cf4c0ea62ec8566d4be117fef01781 # v3.7.9
         with:
           node-version-file: .tool-versions
       - run: pnpm i --frozen-lockfile
