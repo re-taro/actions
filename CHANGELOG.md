@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.7.10](https://github.com/re-taro/actions/compare/v3.7.9...v3.7.10) (2025-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1.12.1 ([#880](https://github.com/re-taro/actions/issues/880)) ([a4f8ea7](https://github.com/re-taro/actions/commit/a4f8ea7f1e3c79e8bb5bf52f04e1df6b3f340eb9))
+* **deps:** update dependency axios to v1.12.2 ([#884](https://github.com/re-taro/actions/issues/884)) ([c4e9412](https://github.com/re-taro/actions/commit/c4e9412ac346cf043f69d75da3b7eee5613d3459))
+* **deps:** update dependency wait-on to v8.0.5 ([#881](https://github.com/re-taro/actions/issues/881)) ([8d31714](https://github.com/re-taro/actions/commit/8d31714f0d9bdeea2074b069a1866d359750d3be))
+
 ## [3.7.9](https://github.com/re-taro/actions/compare/v3.7.8...v3.7.9) (2025-09-12)
 
 
