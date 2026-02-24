@@ -31,8 +31,8 @@ importers:
         specifier: 5.3.0
         version: 5.3.0(@typescript-eslint/utils@8.16.0(eslint@9.38.0)(typescript@5.9.3))(eslint-plugin-format@0.1.2(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)(vitest@3.2.4(@types/node@22.18.12))
       '@tsconfig/strictest':
-        specifier: 2.0.6
-        version: 2.0.6
+        specifier: 2.0.8
+        version: 2.0.8
       '@types/node':
         specifier: 22.18.12
         version: 22.18.12
@@ -677,8 +677,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@tsconfig/strictest@2.0.6':
-    resolution: {integrity: sha512-tPOhmDhIUcDjvpDDYyiUdssP84Eqm7n5KxJe5J3/g+s6xoDIPAf+SIn06dhw7VkhxIvLOnhDDrX7tsqMHNEhDg==}
+  '@tsconfig/strictest@2.0.8':
+    resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
 
   '@types/chai@5.2.2':
     resolution: {integrity: sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg==}
@@ -2899,7 +2899,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tsconfig/strictest@2.0.6': {}
+  '@tsconfig/strictest@2.0.8': {}
 
   '@types/chai@5.2.2':
     dependencies:
