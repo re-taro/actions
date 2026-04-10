@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.11](https://github.com/re-taro/actions/compare/v3.7.10...v3.7.11) (2026-04-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1.15.0 ([#936](https://github.com/re-taro/actions/issues/936)) ([e8dc0a8](https://github.com/re-taro/actions/commit/e8dc0a80fb0a67c71634a650528aef3534c4c92b))
+
 ## [3.7.10](https://github.com/re-taro/actions/compare/v3.7.9...v3.7.10) (2026-04-10)
 
 
