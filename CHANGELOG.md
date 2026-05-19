@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.7.13](https://github.com/re-taro/actions/compare/v3.7.12...v3.7.13) (2026-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1.16.1 ([#949](https://github.com/re-taro/actions/issues/949)) ([cfab32a](https://github.com/re-taro/actions/commit/cfab32ae3f394b4256335d9762c7b6dd5396b706))
+* **deps:** update dependency fastify to v5.8.5 ([#946](https://github.com/re-taro/actions/issues/946)) ([00a1027](https://github.com/re-taro/actions/commit/00a1027918a28ab131a20b14dc91677d5af7895e))
+
 ## [3.7.12](https://github.com/re-taro/actions/compare/v3.7.11...v3.7.12) (2026-05-19)
 
 
