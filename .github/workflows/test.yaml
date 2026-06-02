@@ -12,7 +12,7 @@ jobs:
   test-setup-node:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Setup Node.js
         id: setup-node
         uses: ./setup-node
@@ -25,7 +25,7 @@ jobs:
       run:
         working-directory: ./turbo-cache
     steps:
-      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Setup Node.js
         uses: re-taro/actions/setup-node@516042f6936d8181057b4c8e2eb9f24534335374 # v3.7.12
         with:
