@@ -12,8 +12,8 @@ importers:
         specifier: 1.11.1
         version: 1.11.1
       axios:
-        specifier: 1.18.0
-        version: 1.18.0
+        specifier: 1.18.1
+        version: 1.18.1
       fastify:
         specifier: 5.8.5
         version: 5.8.5
@@ -912,8 +912,8 @@ packages:
   avvio@9.0.0:
     resolution: {integrity: sha512-UbYrOXgE/I+knFG+3kJr9AgC7uNo8DG+FGGODpH9Bj1O1kL/QDjBXnTem9leD3VdQKtaHjV3O85DQ7hHh4IIHw==}
 
-  axios@1.18.0:
-    resolution: {integrity: sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==}
+  axios@1.18.1:
+    resolution: {integrity: sha512-3nTvFlvpn9Zu/RkHUqtc7/+al4UpRW5az71ap5zccp6e8RAYEzhMTecX8Dz1wWDYrPpUoB1HAQEGEAEvUr7S9g==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -3130,7 +3130,7 @@ snapshots:
       '@fastify/error': 4.0.0
       fastq: 1.17.1
 
-  axios@1.18.0:
+  axios@1.18.1:
     dependencies:
       follow-redirects: 1.16.0
       form-data: 4.0.5
@@ -4659,7 +4659,7 @@ snapshots:
 
   wait-on@8.0.5:
     dependencies:
-      axios: 1.18.0
+      axios: 1.18.1
       joi: 18.0.1
       lodash: 4.17.21
       minimist: 1.2.8
